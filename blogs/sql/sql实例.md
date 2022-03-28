@@ -50,3 +50,6 @@ categories:
 
 注入成功，得到用户名和密码。
 <img src="https://s1.ax1x.com/2022/03/28/qrbbCV.png">
+
+附上全过程链接：
+<a href="https://www.bilibili.com/video/BV1Qa411x79v" target="_blank">sql实例</a>
