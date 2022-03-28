@@ -1,7 +1,7 @@
 ---
 title: sql实例(X集团)
 date: 2022-03-28
-cover: https://s1.ax1x.com/2022/03/28/qr7OiV.gif
+cover: https://s1.ax1x.com/2022/03/28/qrv4DU.jpg
 tags:
  - sql
 categories:
