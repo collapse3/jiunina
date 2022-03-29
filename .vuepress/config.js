@@ -2,6 +2,16 @@ module.exports = {
   "title": "久念",
   "description": "我始终相信，在这个世界上，一定有另一个自己，在做着我不敢做的事，在过着我想过的生活。",
   "dest": "dist",
+  "plugins": [
+     [
+       'ribbon',
+        {
+           size: 90, // width of the ribbon, default: 90
+           opacity: 0.8, // opacity of the ribbon, default: 0.3
+           zIndex: -1, // z-index property of the background, default: -1
+        },
+     ],
+   ],
   "head": [
     [
       "link",

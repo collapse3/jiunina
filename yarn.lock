@@ -946,6 +946,27 @@
     "@leancloud/adapter-utils" "^1.1.0"
     miniprogram-api-typings "^2.10.2"
 
+"@moefy-canvas/core@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.npmmirror.com/@moefy-canvas/core/-/core-0.3.0.tgz#09ad70e51b20729441b381ab1ac9ccdb31002ae5"
+  integrity sha512-ZWE78QcK4fU3badHXLPQLcORU23b4SQtJFWtHHoXIl8qSxNVmLUUCmGnJ85Rg52/uAMbedZNi/kIIF4fu8I4Pg==
+
+"@moefy-canvas/theme-ribbon@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.npmmirror.com/@moefy-canvas/theme-ribbon/-/theme-ribbon-0.3.0.tgz#bce94bc6e77ac84edbaee5aafb025be30bab6b30"
+  integrity sha512-1+TC7Or9cxdXdh7jYtgv9DsIYdUE5pEWNfJ0zRpa7+dL4cfFVHkDChrsUQewc1Qkyjc71YmKRtwZZFhQMdVqww==
+  dependencies:
+    "@moefy-canvas/core" "^0.3.0"
+    "@moefy-canvas/utils" "^0.3.0"
+    ts-debounce "^4.0.0"
+
+"@moefy-canvas/utils@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.npmmirror.com/@moefy-canvas/utils/-/utils-0.3.0.tgz#882836c028164953d4c6d284754d8242159b1495"
+  integrity sha512-dsdYvQKZg16yd+cvFDtL4zu8lPDJbHYcVBxMR4/MY+N/hSsMF8PMH04cE4szYstoZHrlLBZcB2cZEoxGas5PKw==
+  dependencies:
+    "@moefy-canvas/core" "^0.3.0"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.npm.taobao.org/@mrmlnc/readdir-enhanced/download/@mrmlnc/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -8162,6 +8183,11 @@ tr46@^1.0.1:
   dependencies:
     punycode "^2.1.0"
 
+ts-debounce@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmmirror.com/ts-debounce/-/ts-debounce-4.0.0.tgz#33440ef64fab53793c3d546a8ca6ae539ec15841"
+  integrity sha512-+1iDGY6NmOGidq7i7xZGA4cm8DAa6fqdYcvO5Z6yBevH++Bdo9Qt/mN0TzHUgcCcKv1gmh9+W5dHqz8pMWbCbg==
+
 tslib@^1.9.0:
   version "1.13.0"
   resolved "https://registry.npm.taobao.org/tslib/download/tslib-1.13.0.tgz?cache=0&sync_timestamp=1596751904317&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftslib%2Fdownload%2Ftslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
@@ -8696,6 +8722,13 @@ vuepress-plugin-mailchimp@^1.4.1:
   dependencies:
     jsonp "^0.2.1"
     query-string "^6.9.0"
+
+vuepress-plugin-ribbon@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-ribbon/-/vuepress-plugin-ribbon-1.1.2.tgz#075fa2aa4ec93a4a4fd62208996f39f408e10756"
+  integrity sha512-4G9VH415QxxJKZVu/ZKGDbjFutjWQzs+mmGPszWesZXlgZHgBFeAqfFnmfOJfFBdsGqzwED48e0/hBFxAvouAQ==
+  dependencies:
+    "@moefy-canvas/theme-ribbon" "^0.3.0"
 
 vuepress-plugin-sitemap@^2.3.1:
   version "2.3.1"
