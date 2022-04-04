@@ -12,6 +12,8 @@ categories:
   
   今天带来一个新的xss闯关，加油加油！
 
+<a href = "https://xss.haozi.me/" target="_blank">https://xss.haozi.me/</a>
+
 ## 第零关
 
   这一关其实没什么好讲的，没有过滤任何东西，直接使用任何语句绕过即可。
