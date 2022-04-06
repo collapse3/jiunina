@@ -127,7 +127,7 @@ module.exports = {
       "avatar": "", //
       "enableQQ": true, //启用昵称框自动获取QQ昵称和QQ头像
       "requiredFields": ['nick', 'mail'], //设置必填项
-      showComment: false
+      "showComment": true,
     },
     "logo": "/logo.png",
     // "huawei": true, //首页出现华为文案
@@ -150,7 +150,7 @@ module.exports = {
       // "segmentfault" : "https://segmentfault.com/u/zeal_5eecb699bdb08", //思否
       "csdn" : "https://blog.csdn.net/m0_62077226?type=blog", //CSDN
       // "wechat" : "你的微信", //微信
-      // "qq" : "你的QQ" //QQ
+      //"qq" : "tencent://message/?uin=1464138236&Site=http://vps.shuidazhe.com&Menu=yes" , //QQ
       "bilibili": "https://b23.tv/QMBuZRE", //bilibili
       //"twitter": "" //Twitter
     },
