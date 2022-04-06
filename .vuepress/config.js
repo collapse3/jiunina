@@ -127,7 +127,7 @@ module.exports = {
       "avatar": "", //
       "enableQQ": true, //启用昵称框自动获取QQ昵称和QQ头像
       "requiredFields": ['nick', 'mail'], //设置必填项
-      "showComment": true,
+      "showComment": false,
     },
     "logo": "/logo.png",
     // "huawei": true, //首页出现华为文案
